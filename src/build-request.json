@@ -1,0 +1,271 @@
+{
+  "kind": "build_request",
+  "title": "Refine Proxima Academy website with updated branding, content, and features",
+  "projectName": "Proxima Academy",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Update the Navigation component to display 'PROXIMA ACADEMY' in bold, premium typography with the tagline 'Learn. Lead. Rise.' appearing elegant and slightly smaller directly below it on every page",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Display PROXIMA ACADEMY in bold, premium typography",
+          "Just below it, display the tagline in stylish font: Learn. Lead. Rise.",
+          "The tagline should appear elegant, slightly smaller than the main title"
+        ]
+      },
+      "acceptanceCriteria": [
+        "PROXIMA ACADEMY appears in bold premium typography",
+        "Tagline 'Learn. Lead. Rise.' displays directly below academy name",
+        "Tagline is visually elegant and noticeably smaller than main title",
+        "Branding appears consistently at top of all pages"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Update HomePage hero section with headline 'Admissions Open 2026–27', prominent Early Bird 50% OFF banner, and clear CTA button 'Book Free Counseling Session'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Hero section headline: Admissions Open 2026–27",
+          "Early Bird 50% OFF banner",
+          "CTA: Book Free Counseling Session"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero displays 'Admissions Open 2026–27' as main headline",
+        "Early Bird 50% OFF appears prominently as banner or badge",
+        "CTA button labeled 'Book Free Counseling Session' is clearly visible",
+        "CTA initiates appropriate contact action (WhatsApp or form)"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Update AboutPage to include academy journey narrative, clearly defined mission and vision statements, and detailed teaching philosophy aligned with Proxima Academy values",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "About Us: Academy journey, Mission & Vision, Teaching philosophy"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Page includes academy journey or founding story section",
+        "Mission statement is clearly articulated",
+        "Vision statement is distinct and prominent",
+        "Teaching philosophy section explains concept-based approach"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Update CoursesPage to clearly separate and detail three course categories: 8th–10th Foundation, 11th & 12th Science, and 11th & 12th Commerce with subject coverage for each",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Courses: 8th–10th Foundation, 11th & 12th Science, 11th & 12th Commerce"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Three distinct course sections are clearly visible",
+        "8th-10th Foundation shows applicable subjects",
+        "11th-12th Science lists science stream subjects",
+        "11th-12th Commerce lists commerce stream subjects",
+        "Each section includes key features or benefits"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Update WhyChooseUsPage to highlight concept clarity, small batch size, personal mentorship, and result-oriented teaching as key differentiators",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Why Choose Us: Concept clarity, Small batch size, Personal mentorship, Result-oriented teaching"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Concept clarity is featured as a key benefit",
+        "Small batch size advantage is explained",
+        "Personal mentorship approach is highlighted",
+        "Result-oriented teaching methodology is described",
+        "Each benefit has clear visual distinction"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Implement ContactPage with functional inquiry form collecting student name, contact details, course interest, embedded Google Map showing Bhayandar East location, and WhatsApp contact button",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Contact Page: Inquiry form, Google Map integration, WhatsApp button"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Inquiry form collects name, phone/email, and course interest",
+        "Form validates input before submission",
+        "Google Map embed shows Bhayandar East, Mumbai location",
+        "WhatsApp button opens chat with academy number 9137201158",
+        "Contact information (address, phone) is clearly displayed"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Implement floating WhatsApp button that remains visible and accessible on all pages across the website",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Floating WhatsApp button"
+        ]
+      },
+      "acceptanceCriteria": [
+        "WhatsApp button floats in fixed position (typically bottom-right)",
+        "Button remains visible while scrolling",
+        "Button appears on all pages consistently",
+        "Clicking button opens WhatsApp chat with number 9137201158",
+        "Button has recognizable WhatsApp icon and styling"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Update TestimonialsSection with authentic student and parent testimonials that build trust and showcase results",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Testimonials section"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section displays multiple testimonials (3-6)",
+        "Each testimonial includes student/parent name",
+        "Testimonials highlight specific benefits or outcomes",
+        "Section uses trust-building design elements",
+        "Content feels authentic and result-focused"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Update FAQSection to address common parent and student questions about admissions, batch size, board preparation, early bird discount, and enrollment process",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "FAQ section"
+        ]
+      },
+      "acceptanceCriteria": [
+        "FAQ includes question about admission process",
+        "Batch size question is addressed",
+        "Board exam preparation approach is explained",
+        "Early bird discount details are clarified",
+        "Questions are organized in collapsible accordion format"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Optimize website metadata and content for SEO targeting keywords: 'Best coaching classes in Bhayandar East', '11th 12th commerce classes Bhayandar', 'Science coaching near me'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "SEO optimized for: Best coaching classes in Bhayandar East, 11th 12th commerce classes Bhayandar, Science coaching near me"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Page titles include relevant SEO keywords",
+        "Meta descriptions are keyword-optimized",
+        "Heading tags (H1, H2) incorporate target keywords naturally",
+        "Location 'Bhayandar East, Mumbai' appears in key content areas",
+        "Course terms (11th, 12th, Science, Commerce) are prominent"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Update all academy information to reflect focus areas: Concept-based teaching, Exam-oriented preparation, Personal attention, Dedicated IT Lab, Video & Audio Lectures, Experienced Faculty",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Focus Areas: Concept-based teaching, Exam-oriented preparation, Personal attention, Dedicated IT Lab, Video & Audio Lectures, Experienced Faculty"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All six focus areas are mentioned across relevant pages",
+        "IT Lab facility is highlighted with visual emphasis",
+        "Video & Audio Lectures feature is showcased",
+        "Experienced Faculty is emphasized in credibility sections",
+        "Focus areas support the premium positioning"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Ensure all pages maintain professional, trustworthy, premium, student-focused, result-driven tone throughout copy and design",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Tone: Professional, trustworthy, premium, student-focused, result-driven"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Language is professional and error-free",
+        "Content builds trust through specificity and clarity",
+        "Design elements communicate premium quality",
+        "Student benefits and outcomes are prioritized",
+        "Result-oriented language is used consistently"
+      ]
+    }
+  ],
+  "constraints": [
+    "Use blue and gold theme consistently for premium academic branding",
+    "Academy name 'PROXIMA ACADEMY' and tagline 'Learn. Lead. Rise.' must appear at top of every page",
+    "Phone number 9137201158 must be used for all contact points",
+    "Location must be specified as Bhayandar East, Mumbai"
+  ],
+  "nonGoals": [
+    "Backend database or data persistence functionality",
+    "User authentication or student login portals",
+    "Online payment processing for fees",
+    "Real-time chat or messaging systems",
+    "Student progress tracking dashboards",
+    "Automated email notifications"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Premium gold and blue gradient background for hero section with subtle academic motifs (hero-bg.dim_1920x1080.png)",
+      "Modern icon set representing concept-based learning, personal attention, IT lab, video lectures, experienced faculty, and exam preparation in blue and gold theme (icons-feature-set.dim_800x600.png)",
+      "Professional academy building or classroom illustration in blue and gold color scheme for About page (academy-illustration.dim_1200x800.png)"
+    ],
+    "edits": []
+  }
+}

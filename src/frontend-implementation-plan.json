@@ -1,0 +1,280 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Refine Proxima Academy website with updated branding, content, and features",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Update Navigation component to display 'PROXIMA ACADEMY' in bold, premium typography with tagline 'Learn. Lead. Rise.' appearing elegant and slightly smaller directly below",
+      "acceptanceCriteria": [
+        "PROXIMA ACADEMY appears in bold premium typography",
+        "Tagline 'Learn. Lead. Rise.' displays directly below academy name",
+        "Tagline is visually elegant and noticeably smaller than main title",
+        "Branding appears consistently at top of all pages"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Navigation.tsx",
+          "operation": "modify",
+          "description": "Update the Navigation component to display 'PROXIMA ACADEMY' in bold, premium typography with increased font weight and size, and position the tagline 'Learn. Lead. Rise.' elegantly below it with reduced size and refined styling to create visual hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "summary": "Update HomePage hero section with headline 'Admissions Open 2026–27', prominent Early Bird 50% OFF banner, and clear CTA button 'Book Free Counseling Session'",
+      "acceptanceCriteria": [
+        "Hero displays 'Admissions Open 2026–27' as main headline",
+        "Early Bird 50% OFF appears prominently as banner or badge",
+        "CTA button labeled 'Book Free Counseling Session' is clearly visible",
+        "CTA initiates appropriate contact action (WhatsApp or form)"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/HomePage.tsx",
+          "operation": "modify",
+          "description": "Update the hero section to display 'Admissions Open 2026–27' as the main headline, add a prominent 'Early Bird 50% OFF' banner using gold/blue theme styling, include a clear CTA button labeled 'Book Free Counseling Session' that triggers WhatsApp contact using the openWhatsAppChat utility with phone number 9137201158, and integrate the generated hero background image from frontend/public/assets/generated/hero-bg.dim_1920x800.png as the section background"
+        }
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "summary": "Update AboutPage to include academy journey narrative, clearly defined mission and vision statements, and detailed teaching philosophy aligned with Proxima Academy values",
+      "acceptanceCriteria": [
+        "Page includes academy journey or founding story section",
+        "Mission statement is clearly articulated",
+        "Vision statement is distinct and prominent",
+        "Teaching philosophy section explains concept-based approach"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/AboutPage.tsx",
+          "operation": "modify",
+          "description": "Expand AboutPage to include a narrative section describing the academy's journey and founding story, clearly articulate mission and vision statements in separate, visually distinct sections, add a detailed teaching philosophy section that explains the concept-based learning approach, and integrate the academy illustration from frontend/public/assets/generated/academy-illustration.dim_1200x800.png where appropriate"
+        }
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "summary": "Update CoursesPage to clearly separate and detail three course categories: 8th–10th Foundation, 11th & 12th Science, and 11th & 12th Commerce with subject coverage for each",
+      "acceptanceCriteria": [
+        "Three distinct course sections are clearly visible",
+        "8th-10th Foundation shows applicable subjects",
+        "11th-12th Science lists science stream subjects",
+        "11th-12th Commerce lists commerce stream subjects",
+        "Each section includes key features or benefits"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/CoursesPage.tsx",
+          "operation": "modify",
+          "description": "Restructure CoursesPage to clearly separate and present three distinct course categories: 8th–10th Foundation (with subjects like Math, Science, English), 11th & 12th Science (with Physics, Chemistry, Biology, Math), and 11th & 12th Commerce (with Accounts, Economics, Business Studies), ensuring each section lists subject coverage and highlights key features or benefits specific to that program"
+        }
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "summary": "Update WhyChooseUsPage to highlight concept clarity, small batch size, personal mentorship, and result-oriented teaching as key differentiators",
+      "acceptanceCriteria": [
+        "Concept clarity is featured as a key benefit",
+        "Small batch size advantage is explained",
+        "Personal mentorship approach is highlighted",
+        "Result-oriented teaching methodology is described",
+        "Each benefit has clear visual distinction"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/WhyChooseUsPage.tsx",
+          "operation": "modify",
+          "description": "Update WhyChooseUsPage to prominently feature four key differentiators: concept clarity, small batch size, personal mentorship, and result-oriented teaching, ensuring each benefit has its own visually distinct card or section with descriptive content that explains the advantage and supports the premium positioning"
+        }
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "summary": "Implement ContactPage with functional inquiry form collecting student name, contact details, course interest, embedded Google Map showing Bhayandar East location, and WhatsApp contact button",
+      "acceptanceCriteria": [
+        "Inquiry form collects name, phone/email, and course interest",
+        "Form validates input before submission",
+        "Google Map embed shows Bhayandar East, Mumbai location",
+        "WhatsApp button opens chat with academy number 9137201158",
+        "Contact information (address, phone) is clearly displayed"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/InquiryForm.tsx",
+          "operation": "modify",
+          "description": "Implement the InquiryForm component with form fields for student name, contact details (phone/email), and course interest dropdown (Foundation/Science/Commerce), add client-side validation for required fields and format checks, and include a submit handler that can process the inquiry (currently console log or alert confirmation since no backend persistence is required)"
+        },
+        {
+          "path": "frontend/src/pages/ContactPage.tsx",
+          "operation": "modify",
+          "description": "Expand ContactPage to integrate the InquiryForm component, add an embedded Google Map iframe showing the Bhayandar East, Mumbai location, include a WhatsApp contact button using the openWhatsAppChat utility with phone number 9137201158, and ensure all contact information (address, phone number) is clearly displayed in a prominent, accessible format"
+        }
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "summary": "Implement floating WhatsApp button that remains visible and accessible on all pages across the website",
+      "acceptanceCriteria": [
+        "WhatsApp button floats in fixed position (typically bottom-right)",
+        "Button remains visible while scrolling",
+        "Button appears on all pages consistently",
+        "Clicking button opens WhatsApp chat with number 9137201158",
+        "Button has recognizable WhatsApp icon and styling"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/FloatingWhatsAppButton.tsx",
+          "operation": "create",
+          "description": "Create a new FloatingWhatsAppButton component with fixed positioning (bottom-right corner), WhatsApp icon/branding in green theme, and onClick handler that uses the openWhatsAppChat utility with phone number 9137201158 to initiate chat"
+        },
+        {
+          "path": "frontend/src/components/Layout.tsx",
+          "operation": "modify",
+          "description": "Import and include the FloatingWhatsAppButton component in the Layout so it appears consistently across all pages while maintaining its fixed positioning"
+        }
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "summary": "Update TestimonialsSection with authentic student and parent testimonials that build trust and showcase results",
+      "acceptanceCriteria": [
+        "Section displays multiple testimonials (3-6)",
+        "Each testimonial includes student/parent name",
+        "Testimonials highlight specific benefits or outcomes",
+        "Section uses trust-building design elements",
+        "Content feels authentic and result-focused"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/TestimonialsSection.tsx",
+          "operation": "modify",
+          "description": "Expand TestimonialsSection to include 4-6 authentic student and parent testimonials, ensure each testimonial includes the name and role (student/parent), highlight specific benefits or measurable outcomes (grade improvements, concept clarity, mentorship value), and apply trust-building design elements like star ratings, quote styling, and professional typography"
+        }
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "summary": "Update FAQSection to address common parent and student questions about admissions, batch size, board preparation, early bird discount, and enrollment process",
+      "acceptanceCriteria": [
+        "FAQ includes question about admission process",
+        "Batch size question is addressed",
+        "Board exam preparation approach is explained",
+        "Early bird discount details are clarified",
+        "Questions are organized in collapsible accordion format"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/FAQSection.tsx",
+          "operation": "modify",
+          "description": "Expand FAQSection to include comprehensive questions covering admission process, batch size details, board exam preparation methodology, early bird discount specifics (50% off for 2026-27), and enrollment steps, ensuring all answers are clear, specific, and maintain the existing collapsible accordion format"
+        }
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "summary": "Optimize website metadata and content for SEO targeting keywords: 'Best coaching classes in Bhayandar East', '11th 12th commerce classes Bhayandar', 'Science coaching near me'",
+      "acceptanceCriteria": [
+        "Page titles include relevant SEO keywords",
+        "Meta descriptions are keyword-optimized",
+        "Heading tags (H1, H2) incorporate target keywords naturally",
+        "Location 'Bhayandar East, Mumbai' appears in key content areas",
+        "Course terms (11th, 12th, Science, Commerce) are prominent"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update the HTML title and add meta description tags optimized for target SEO keywords including 'Best coaching classes in Bhayandar East', '11th 12th commerce classes Bhayandar', and 'Science coaching near me', ensuring location and course terms are naturally integrated"
+        },
+        {
+          "path": "frontend/src/pages/HomePage.tsx",
+          "operation": "modify",
+          "description": "Update heading tags (H1, H2) to naturally incorporate SEO keywords like 'coaching classes Bhayandar East', '11th 12th Science Commerce', ensuring 'Bhayandar East, Mumbai' location appears prominently in hero or introductory content"
+        },
+        {
+          "path": "frontend/src/pages/CoursesPage.tsx",
+          "operation": "modify",
+          "description": "Ensure course page headings and content naturally include SEO terms like '11th 12th commerce classes', 'Science coaching', and location references to Bhayandar East for improved search visibility"
+        }
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "summary": "Update all academy information to reflect focus areas: Concept-based teaching, Exam-oriented preparation, Personal attention, Dedicated IT Lab, Video & Audio Lectures, Experienced Faculty",
+      "acceptanceCriteria": [
+        "All six focus areas are mentioned across relevant pages",
+        "IT Lab facility is highlighted with visual emphasis",
+        "Video & Audio Lectures feature is showcased",
+        "Experienced Faculty is emphasized in credibility sections",
+        "Focus areas support the premium positioning"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/HomePage.tsx",
+          "operation": "modify",
+          "description": "Add or update a features section highlighting all six focus areas: Concept-based teaching, Exam-oriented preparation, Personal attention, Dedicated IT Lab, Video & Audio Lectures, and Experienced Faculty, using the generated feature icons from frontend/public/assets/generated/it-lab-icon.dim_96x96.png, frontend/public/assets/generated/personal-attention-icon.dim_96x96.png, and frontend/public/assets/generated/study-material-icon.dim_96x96.png where applicable"
+        },
+        {
+          "path": "frontend/src/pages/WhyChooseUsPage.tsx",
+          "operation": "modify",
+          "description": "Ensure all six focus areas (Concept-based teaching, Exam-oriented preparation, Personal attention, Dedicated IT Lab, Video & Audio Lectures, Experienced Faculty) are featured with visual emphasis on IT Lab and Video/Audio capabilities, supporting the premium positioning"
+        },
+        {
+          "path": "frontend/src/pages/AboutPage.tsx",
+          "operation": "modify",
+          "description": "Integrate references to Experienced Faculty, Concept-based teaching philosophy, and other focus areas into the mission, vision, or values sections to reinforce credibility and premium positioning"
+        }
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "summary": "Ensure all pages maintain professional, trustworthy, premium, student-focused, result-driven tone throughout copy and design",
+      "acceptanceCriteria": [
+        "Language is professional and error-free",
+        "Content builds trust through specificity and clarity",
+        "Design elements communicate premium quality",
+        "Student benefits and outcomes are prioritized",
+        "Result-oriented language is used consistently"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Review and refine global CSS variables, typography, and spacing to reinforce premium, professional design consistent with blue and gold academy branding theme"
+        },
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Ensure Tailwind configuration supports blue and gold color theme consistently across all components, with refined typography settings and spacing that communicate premium quality"
+        },
+        {
+          "path": "frontend/src/pages/HomePage.tsx",
+          "operation": "modify",
+          "description": "Review and refine all copy to ensure professional, trustworthy, premium, student-focused, and result-driven tone, emphasizing student benefits and measurable outcomes"
+        },
+        {
+          "path": "frontend/src/pages/AboutPage.tsx",
+          "operation": "modify",
+          "description": "Review and refine all copy to maintain professional language, build trust through specificity, and emphasize student-focused, result-oriented messaging"
+        },
+        {
+          "path": "frontend/src/pages/CoursesPage.tsx",
+          "operation": "modify",
+          "description": "Ensure course descriptions use professional language, highlight student benefits and outcomes, and maintain result-driven tone throughout"
+        },
+        {
+          "path": "frontend/src/pages/WhyChooseUsPage.tsx",
+          "operation": "modify",
+          "description": "Review content to ensure trustworthy, premium tone with emphasis on specific benefits and measurable student outcomes"
+        },
+        {
+          "path": "frontend/src/pages/ContactPage.tsx",
+          "operation": "modify",
+          "description": "Ensure contact page language is professional, welcoming, and maintains premium academy positioning"
+        }
+      ]
+    }
+  ]
+}

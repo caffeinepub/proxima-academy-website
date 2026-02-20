@@ -1,0 +1,233 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-navigation-component-to-display-proxima-academy-in-bold-premium-typography-with-the-tagline-learn-lead-rise-appearing-elegant-and-slightly-smaller-directly-below-it-on-every-page",
+      "featureTitle": "Update the Navigation component to display 'PROXIMA ACADEMY' in bold, premium typography with the tagline 'Learn. Lead. Rise.' appearing elegant and slightly smaller directly below it on every page",
+      "files": [
+        "frontend/src/components/Navigation.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-homepage-hero-section-with-headline-admissions-open-2026-27-prominent-early-bird-50-off-banner-and-clear-cta-button-book-free-counseling-session",
+      "featureTitle": "Update HomePage hero section with headline 'Admissions Open 2026–27', prominent Early Bird 50% OFF banner, and clear CTA button 'Book Free Counseling Session'",
+      "files": [
+        "frontend/src/pages/HomePage.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-aboutpage-to-include-academy-journey-narrative-clearly-defined-mission-and-vision-statements-and-detailed-teaching-philosophy-aligned-with-proxima-academy-values",
+      "featureTitle": "Update AboutPage to include academy journey narrative, clearly defined mission and vision statements, and detailed teaching philosophy aligned with Proxima Academy values",
+      "files": [
+        "frontend/src/pages/AboutPage.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-coursespage-to-clearly-separate-and-detail-three-course-categories-8th-10th-foundation-11th-12th-science-and-11th-12th-commerce-with-subject-coverage-for-each",
+      "featureTitle": "Update CoursesPage to clearly separate and detail three course categories: 8th–10th Foundation, 11th & 12th Science, and 11th & 12th Commerce with subject coverage for each",
+      "files": [
+        "frontend/src/pages/CoursesPage.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-whychooseuspage-to-highlight-concept-clarity-small-batch-size-personal-mentorship-and-result-oriented-teaching-as-key-differentiators",
+      "featureTitle": "Update WhyChooseUsPage to highlight concept clarity, small batch size, personal mentorship, and result-oriented teaching as key differentiators",
+      "files": [
+        "frontend/src/pages/WhyChooseUsPage.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-contactpage-with-functional-inquiry-form-collecting-student-name-contact-details-course-interest-embedded-google-map-showing-bhayandar-east-location-and-whatsapp-contact-button",
+      "featureTitle": "Implement ContactPage with functional inquiry form collecting student name, contact details, course interest, embedded Google Map showing Bhayandar East location, and WhatsApp contact button",
+      "files": [
+        "frontend/src/components/InquiryForm.tsx",
+        "frontend/src/pages/ContactPage.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-floating-whatsapp-button-that-remains-visible-and-accessible-on-all-pages-across-the-website",
+      "featureTitle": "Implement floating WhatsApp button that remains visible and accessible on all pages across the website",
+      "files": [
+        "frontend/src/components/FloatingWhatsAppButton.tsx",
+        "frontend/src/components/Layout.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-testimonialssection-with-authentic-student-and-parent-testimonials-that-build-trust-and-showcase-results",
+      "featureTitle": "Update TestimonialsSection with authentic student and parent testimonials that build trust and showcase results",
+      "files": [
+        "frontend/src/components/TestimonialsSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-faqsection-to-address-common-parent-and-student-questions-about-admissions-batch-size-board-preparation-early-bird-discount-and-enrollment-process",
+      "featureTitle": "Update FAQSection to address common parent and student questions about admissions, batch size, board preparation, early bird discount, and enrollment process",
+      "files": [
+        "frontend/src/components/FAQSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-optimize-website-metadata-and-content-for-seo-targeting-keywords-best-coaching-classes-in-bhayandar-east-11th-12th-commerce-classes-bhayandar-science-coaching-near-me",
+      "featureTitle": "Optimize website metadata and content for SEO targeting keywords: 'Best coaching classes in Bhayandar East', '11th 12th commerce classes Bhayandar', 'Science coaching near me'",
+      "files": [
+        "frontend/index.html",
+        "frontend/src/pages/CoursesPage.tsx",
+        "frontend/src/pages/HomePage.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-all-academy-information-to-reflect-focus-areas-concept-based-teaching-exam-oriented-preparation-personal-attention-dedicated-it-lab-video-audio-lectures-experienced-faculty",
+      "featureTitle": "Update all academy information to reflect focus areas: Concept-based teaching, Exam-oriented preparation, Personal attention, Dedicated IT Lab, Video & Audio Lectures, Experienced Faculty",
+      "files": [
+        "frontend/src/pages/AboutPage.tsx",
+        "frontend/src/pages/HomePage.tsx",
+        "frontend/src/pages/WhyChooseUsPage.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-ensure-all-pages-maintain-professional-trustworthy-premium-student-focused-result-driven-tone-throughout-copy-and-design",
+      "featureTitle": "Ensure all pages maintain professional, trustworthy, premium, student-focused, result-driven tone throughout copy and design",
+      "files": [
+        "frontend/src/index.css",
+        "frontend/src/pages/AboutPage.tsx",
+        "frontend/src/pages/ContactPage.tsx",
+        "frontend/src/pages/CoursesPage.tsx",
+        "frontend/src/pages/HomePage.tsx",
+        "frontend/src/pages/WhyChooseUsPage.tsx",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-12"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

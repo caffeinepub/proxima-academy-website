@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Professional website for Proxima Academy coaching institute with modern responsive design, blue and gold branding theme, multi-page structure (Home, About, Courses, Why Choose Us, Contact), and integrated features including WhatsApp, testimonials, FAQ, and SEO optimization",
+  "architectural_notes": [
+    "Blue and gold premium branding theme throughout",
+    "Responsive design for mobile, tablet, and desktop",
+    "Consistent header with PROXIMA ACADEMY branding and 'Learn. Lead. Rise.' tagline on every page",
+    "CTA-focused design with 'Book Free Counseling Session' as primary action",
+    "Google Maps API integration for location display"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Premium gold and blue gradient background for hero section with subtle academic motifs (hero-bg.dim_1920x1080.png)\n- Modern icon set representing concept-based learning, personal attention, IT lab, video lectures, experienced faculty, and exam preparation in blue and gold theme (icons-feature-set.dim_800x600.png)\n- Professional academy building or classroom illustration in blue and gold color scheme for About page (academy-illustration.dim_1200x800.png)",
+  "existing_features": [
+    {
+      "id": "feature-update-the-navigation-component-to-display-proxima-academy-in-bold-premium-typography-with-the-tagline-learn-lead-rise-appearing-elegant-and-slightly-smaller-directly-below-it-on-every-page",
+      "title": "Update the Navigation component to display 'PROXIMA ACADEMY' in bold, premium typography with the tagline 'Learn. Lead. Rise.' appearing elegant and slightly smaller directly below it on every page",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-homepage-hero-section-with-headline-admissions-open-2026-27-prominent-early-bird-50-off-banner-and-clear-cta-button-book-free-counseling-session",
+      "title": "Update HomePage hero section with headline 'Admissions Open 2026–27', prominent Early Bird 50% OFF banner, and clear CTA button 'Book Free Counseling Session'",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-aboutpage-to-include-academy-journey-narrative-clearly-defined-mission-and-vision-statements-and-detailed-teaching-philosophy-aligned-with-proxima-academy-values",
+      "title": "Update AboutPage to include academy journey narrative, clearly defined mission and vision statements, and detailed teaching philosophy aligned with Proxima Academy values",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-coursespage-to-clearly-separate-and-detail-three-course-categories-8th-10th-foundation-11th-12th-science-and-11th-12th-commerce-with-subject-coverage-for-each",
+      "title": "Update CoursesPage to clearly separate and detail three course categories: 8th–10th Foundation, 11th & 12th Science, and 11th & 12th Commerce with subject coverage for each",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-whychooseuspage-to-highlight-concept-clarity-small-batch-size-personal-mentorship-and-result-oriented-teaching-as-key-differentiators",
+      "title": "Update WhyChooseUsPage to highlight concept clarity, small batch size, personal mentorship, and result-oriented teaching as key differentiators",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-contactpage-with-functional-inquiry-form-collecting-student-name-contact-details-course-interest-embedded-google-map-showing-bhayandar-east-location-and-whatsapp-contact-button",
+      "title": "Implement ContactPage with functional inquiry form collecting student name, contact details, course interest, embedded Google Map showing Bhayandar East location, and WhatsApp contact button",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-floating-whatsapp-button-that-remains-visible-and-accessible-on-all-pages-across-the-website",
+      "title": "Implement floating WhatsApp button that remains visible and accessible on all pages across the website",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-testimonialssection-with-authentic-student-and-parent-testimonials-that-build-trust-and-showcase-results",
+      "title": "Update TestimonialsSection with authentic student and parent testimonials that build trust and showcase results",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-faqsection-to-address-common-parent-and-student-questions-about-admissions-batch-size-board-preparation-early-bird-discount-and-enrollment-process",
+      "title": "Update FAQSection to address common parent and student questions about admissions, batch size, board preparation, early bird discount, and enrollment process",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-optimize-website-metadata-and-content-for-seo-targeting-keywords-best-coaching-classes-in-bhayandar-east-11th-12th-commerce-classes-bhayandar-science-coaching-near-me",
+      "title": "Optimize website metadata and content for SEO targeting keywords: 'Best coaching classes in Bhayandar East', '11th 12th commerce classes Bhayandar', 'Science coaching near me'",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-all-academy-information-to-reflect-focus-areas-concept-based-teaching-exam-oriented-preparation-personal-attention-dedicated-it-lab-video-audio-lectures-experienced-faculty",
+      "title": "Update all academy information to reflect focus areas: Concept-based teaching, Exam-oriented preparation, Personal attention, Dedicated IT Lab, Video & Audio Lectures, Experienced Faculty",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-all-pages-maintain-professional-trustworthy-premium-student-focused-result-driven-tone-throughout-copy-and-design",
+      "title": "Ensure all pages maintain professional, trustworthy, premium, student-focused, result-driven tone throughout copy and design",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Home page with hero section, Early Bird 50% OFF banner, and course overview",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About Us page with academy journey, mission, vision, and teaching philosophy",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Courses page detailing 8th-10th Foundation, 11th-12th Science, and 11th-12th Commerce",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Why Choose Us page highlighting concept clarity, batch size, mentorship, and results",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Contact page with inquiry form, Google Map integration, and WhatsApp button",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Floating WhatsApp button across all pages",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Testimonials section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "FAQ section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "SEO optimization for coaching classes in Bhayandar East area",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Proxima Academy Website",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
